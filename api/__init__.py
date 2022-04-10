@@ -9,6 +9,8 @@ from api.models.user import User
 from api.models.profile import Profile
 from api.models.cat import Cat
 from api.models.toy import Toy
+from api.models.toy import Association
+from api.models.feeding import Feeding
 
 # ============ Import Views ============
 from api.views.auth import auth
