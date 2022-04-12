@@ -1,5 +1,3 @@
-from email import message
-import profile
 from flask import Blueprint, jsonify, request
 from api.middleware import login_required, read_token
 
